@@ -69,3 +69,5 @@ set nu
 
 let mapleader = "H"
 nmap <leader>ne :NERDTree<cr>
+
+autocmd vimenter * NERDTree | wincmd p
